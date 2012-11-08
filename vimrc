@@ -96,3 +96,4 @@ color default
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
+:imap jj <ESC>
